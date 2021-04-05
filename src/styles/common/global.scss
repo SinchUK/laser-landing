@@ -12,6 +12,8 @@ html {
 
 body {
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 img {
@@ -20,4 +22,19 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.wrapper {
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

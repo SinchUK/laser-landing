@@ -1,0 +1,19 @@
+.prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px 10px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-top {
+    margin: 0 0 20px;
+}
+.prices .card:hover {
+    box-shadow: 0 0 10px $mainColor;
+}

@@ -1,0 +1,18 @@
+.advantages {
+    padding: 40px 0 60px;
+    background-image: url('/img/women.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 100%;
+    height: 100vh;
+}
+.advantages-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.advantages-head {
+    text-align: center;
+}

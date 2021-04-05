@@ -1,0 +1,46 @@
+.banner {
+    background: url(../../img/banner1.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-size: contain;
+}
+.banner-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #F137A6 inset, 0 0 0 0 #F137A6;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    transition: .15s ease-in-out;
+  }
+  .banner-btn:hover {
+    box-shadow: 0 0 10px 0 #F137A6 inset, 0 0 10px 4px #F137A6;
+    color: #F137A6;
+  }
+  .banner-head {
+    margin: 80px 40px 40px;
+  }
+  .banner-head h1 {
+    font-size: 2.6rem;
+  }
+  .section-gap {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-height {
+    height: 80vh;
+  }
+  .section-gap hr {
+    background-color: $mainColor;
+    border: 5px solid $mainColor;
+    width: 90%;
+  }

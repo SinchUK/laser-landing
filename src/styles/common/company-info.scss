@@ -1,0 +1,59 @@
+.about-info {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+.services {
+    position: absolute;
+    bottom: 0;
+    top: 2%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    padding-right: 17%;
+    justify-content: flex-end;
+    font-size: 3.5rem;
+}
+.services-btn {
+    width: 150px;
+    position: relative;
+    background: #fbaaa9;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    span {
+      line-height: 100px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 32px;
+      font-weight: semibold;
+    }
+    &:hover {
+      opacity: 0.3;
+      box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+      6px 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    &:active {
+      opacity: 1;
+      box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+      inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+      color: #79e3b6;
+      }
+    &::selection {
+        background: transparent;
+     }
+}
+
