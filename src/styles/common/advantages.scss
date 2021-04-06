@@ -13,6 +13,19 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.advantages-item .card {
+    border-color: $mainColor;
+}
 .advantages-head {
     text-align: center;
+}
+.fa {
+    margin: 20px;
+}
+.card-body i {
+    font-size: 4rem;
+    border: 2px solid $mainColor;
+    border-radius: 55px;
+    padding: 20px;
+    color: $mainColor;
 }
