@@ -3,20 +3,25 @@ footer.nb-footer
     .row
       .col-sm-12
         .about
-          img.img-responsive.center-block(src='images/logo.png' alt='')
-          p
-            | Bootstrap Footer example snippets with CSS, Javascript and HTML. Code example of bootstrap-3 footer using HTML, Javascript, jQuery, and CSS. 5 Beautiful and Responsive Footer Templates. Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.
-          .social-media
-            ul.list-inline
-              li
-                a(href='http://www.facebook.com/' title='')
-                  i.fa.fa-facebook
-              li
-                a(href='http://www.instagram.com/' title='')
-                  i.fa.fa-instagram
-  section.copyright
-    .container.centered
-      .row
-        .col-sm-12
-          p Copyright &copy; 2021. SinchUK.
+          .about-items
+            img.img-responsive.center-block(src='/img/logo.png' alt='')
+          .about-items  
+            ul.footer-menu 
+              li 
+                a(href="" alt="") FAQ
+              li 
+                a(href="" alt="") About 
+              li 
+                a(href="" alt="") Prices       
+          .about-items
+            .social-media
+              ul.list-inline
+                li.social-icon
+                  a(href='http://www.facebook.com/' title='')
+                    i.fab.fa-facebook
+                li.social-icon
+                  a(href='http://www.instagram.com/' title='')
+                    i.fab.fa-instagram
+  .col-sm-12.copyright
+    p Copyright &copy; 2021. SinchUK.
         
