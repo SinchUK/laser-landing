@@ -1,3 +1,6 @@
+.banner-mobile {
+  display: none;
+} 
 .banner {
     background: url(../../img/banner1.jpg);
     width: 100%;
@@ -44,3 +47,61 @@
     border: 5px solid $mainColor;
     width: 90%;
   }
+  .booking-block-overlay {
+    width: 465px;
+    height: 250px;
+    background-color: #e5e2e2d1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .booking-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .carousel-caption-custom {
+    color: black!important;
+    position: absolute;
+    top: 1.5rem;
+    text-align: center;
+
+}
+.carousel-caption-custom h5 {
+    font-size: 4rem;
+}
+.carousel-caption-custom p {
+    font-size: 2rem;
+}
+@media only screen and (max-width: 768px) {
+    #carouselExampleCaptions {
+      display: none;
+    }
+    .banner-mobile-wrapper {
+      background-image: url(/img/banner1.jpg);
+      background-color: #cccccc;
+      height: 80vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .banner-mobile-header {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .banner-mobile {
+      display: block;
+    }
+}

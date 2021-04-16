@@ -1,27 +1,54 @@
-footer.nb-footer
-  .container
-    .row
-      .col-sm-12
-        .about
-          .about-items
-            img.img-responsive.center-block(src='/img/logo.png' alt='')
-          .about-items  
-            ul.footer-menu 
-              li 
-                a(href="" alt="") FAQ
-              li 
-                a(href="" alt="") About 
-              li 
-                a(href="" alt="") Prices       
-          .about-items
-            .social-media
-              ul.list-inline
-                li.social-icon
-                  a(href='http://www.facebook.com/' title='')
-                    i.fab.fa-facebook
-                li.social-icon
-                  a(href='http://www.instagram.com/' title='')
-                    i.fab.fa-instagram
+//- footer.nb-footer
+//-   .container
+//-     .row
+//-       .col-sm-12
+//-         .about
+//-           .about-items
+//-             img.img-responsive.center-block(src='/img/logo.png' alt='')
+//-           .about-items  
+//-             ul.footer-menu 
+//-               li 
+//-                 a(href="") FAQ
+//-               li 
+//-                 a(href="") About 
+//-               li 
+//-                 a(href="") Prices       
+//-           .about-items
+//-             .social-media
+//-               ul.list-inline
+//-                 li.social-icon
+//-                   a(href='http://www.facebook.com/' title='')
+//-                     i.fab.fa-facebook
+//-                 li.social-icon
+//-                   a(href='http://www.instagram.com/' title='')
+//-                     i.fab.fa-instagram
+//-   .col-sm-12.copyright
+//-     p Copyright &copy; 2021. SinchUK.
+
+// Footer
+footer.bg-dark.text-center.text-white
+  // Grid container
+  .container.p-4
+    // Section: Social media
+    section.mb-4.social-links
+      // Facebook
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-facebook-f
+      // Instagram
+      a.btn.btn-outline-light.btn-floating.m-1(href='#!' role='button')
+        i.fab.fa-instagram
+    // Section: Social media
+    // Section: Text
+    section.mb-4.footer-links
+      ul.nav.justify-content-center.footer-links
+        li.nav-item
+          a.nav-link(href='#') FAQ
+        li.nav-item
+          a.nav-link(href='#') About
+        li.nav-item
+          a.nav-link(href='#') Prices
+    // Section: Links
+  // Grid container
+  // Copyright
   .col-sm-12.copyright
     p Copyright &copy; 2021. SinchUK.
-        

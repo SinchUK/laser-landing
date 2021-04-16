@@ -11,8 +11,9 @@
     justify-content: center;
     align-items: center;
 }
-.card-img-top {
+img.card-img-top {
     margin: 0 0 20px;
+    width: 50%;
 }
 .prices .card:hover {
     box-shadow: 0 0 10px $mainColor;
